@@ -76,12 +76,6 @@ Initialize the smoke density to zero on a Centered Grid.
 6. Make the fluid incompressible
 
 7. Repeat
-
-
-Note, that we did not apply any diffusion on both the fluid and
-the smoke concentration. This is done for simplicity, the involved
-convection/advection procedures introduce considerable numerical
-diffusion which stabilize the simulation.
 """
 
 from phi.jax import flow
